@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Company Name</title>
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(13, 221, 86);
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            margin-top: 58px;
+    background-color: lightskyblue;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #5239ab;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0e0bc1;
+        }
+        .navbar{
+            background-color: cyan;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        span ul{
+            margin-top: -64px;
+    margin-left: 260px;
+    color: aqua;
+    display: flex;
+    font-size: 30px;
+    list-style: none;
+    
+    text-decoration: underline;
+        }
+        .img1{
+    width: 85px;
+    margin-top: 9px;
+}
+span ul li {
+   margin-left: 58px;
+    padding-left: 156px;
+    margin-bottom: -2px;
+}
+
+h7 {
+    font-size: 44px;
+}
+img{
+    float: left;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar" >
+   
+        <img class="img1" src="img1.jpg"> <h7 class="h7">SY Developer</h7>
+   <span>
+       <ul >
+          
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="design.html">Design</a></li>
+           <li><a href="contact.html">Contact</a></li>
+          </ul>
+           </span>
+       </div>
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <section>
+            <p>Have a question, comment, or project inquiry? We'd love to hear from you!</p>
+            <form action="submit.php" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+        <footer>
+            <p>Alternatively, you can reach out to us directly via email or phone:</p>
+            <img src="https://cdn.hugeicons.com/icons/mail-01-stroke-rounded.svg" alt="mail-01" width="24" height="24" /><p>&nbsp; Email: sandeshyadav5234@gmail.com</p>
+            <img src="https://cdn.hugeicons.com/icons/call-stroke-rounded.svg" alt="call" width="24" height="24" /><p> &nbsp; Phone:+91 9293237410</p>
+        </footer>
+    </div>
+</body>
+</html>

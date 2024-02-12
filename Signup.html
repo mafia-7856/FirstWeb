@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+    body{
+        background-color: antiquewhite;
+    }
+  
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 107px;
+    background-color: lemonchiffon;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .navbar{
+            background-color: cyan;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        span ul{
+            margin-top: -64px;
+    margin-left: 260px;
+    color: aqua;
+    display: flex;
+    font-size: 30px;
+    list-style: none;
+    
+    text-decoration: underline;
+        }
+        .img1{
+    width: 85px;
+    margin-top: 9px;
+}
+span ul li {
+   margin-left: 58px;
+    padding-left: 156px;
+    margin-bottom: -2px;
+    margin-top: 20px;
+}
+
+h7 {
+    font-size: 44px;
+}
+  </style>
+</head>
+<body>
+    <div class="navbar" >
+   
+        <img class="img1" src="img1.jpg"> <h7 class="h7">SY Developer</h7>
+   <span>
+       <ul >
+          
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="design.html">Design</a></li>
+           <li><a href="contact.html">Contact</a></li>
+          </ul>
+           </span>
+       </div>
+
+    <form id="signupForm">
+      <h2>Sign Up</h2>
+
+    <input type="text" id="fullName" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script>
+    // JavaScript for handling form submission
+    document.getElementById("signupForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent default form submission
+      // Get form values
+      var fullName = document.getElementById("fullName").value;
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      // Here you can perform further validation if needed
+      // For simplicity, I'm just logging the values to the console
+      console.log("Full Name:", fullName);
+      console.log("Email:", email);
+      console.log("Password:", password);
+      // You can add AJAX code here to send the form data to the server
+      // For example, using Fetch API or XMLHttpRequest
+      // After successful submission, you can redirect the user to another page
+    });
+  </script>
+
+</body>
+</html>

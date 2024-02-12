@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.h7{
+    font-size: 53px;
+    color: blueviolet;
+}
+span a{
+ color: aqua;
+}
+a:hover{
+   color:darkred;
+}
+.l{
+    width: 360px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 29px;
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;    
+    margin-left: 91px;
+
+}
+
+.img1{
+    width: 85px;
+}
+
+.video {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    top: 10px;
+}
+
+.navbar {
+    color: aqua;
+    float: right;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+span ul {
+    margin-top: 10px;
+    margin-left: 260px;
+    color: aqua;
+    display: flex;
+    font-size: 30px;
+    list-style: none;
+    float: right;
+    text-decoration: underline;
+}
+
+span ul li {
+    padding-left: 116px;
+    float: right;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+h1 {
+    color: aqua;
+}
+.ul{
+    color:aqua ;
+}
+
+
+.text {
+    margin-top: 195px;
+    color: yellow;
+    font-size: 76px;
+    margin-left: 100px;
+}
+
+.text h7 {
+    font-size: 30px;
+}
+
+.text h6 {
+    font-size: 30px;
+}
+
+.button {
+    margin-left: 200px;
+  margin-top: 30px;
+    width: 150px;
+    padding: 5px;
+
+}
+
+.button button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:darkorange;
+    color: black;
+    font-weight: bold;
+}
+.login{
+    border: 2px solid red;
+    border-radius: 10px;
+    position: absolute;
+    top: 208px;
+    left: 1337px;
+    width: 400px;
+    height: 489px;
+    background-color: black;
+}
+.login .button{
+    width: 340px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 33px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;
+}
+
+.email input{
+    width: 329px;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.pass input{
+    
+        width: 329px;
+        height: 30px;
+        margin-top: 32px;
+        margin-left: 30px;
+        border-radius: 10px;
+        padding: 5px;
+    
+}
+.login h7{
+    width: 360px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 29px;
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;    
+    margin-left: 91px;
+    
+}
+.login .text2{
+    color: white;
+    font-size: 28px;
+    margin-left: 73px;
+    margin-top: 21px;
+}
+.text2 a{
+    color: orangered;
+    text-decoration: none;
+    margin-left: 22px;
+}
+.p{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+
+.t  li{
+   list-style: none;
+}
+.t ul{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 10px;
+    float: left;
+ 
+}
+.t ul li a img{
+    background-color: white;
+    border-radius: 9px;
+    width: 28px;
+    height: 30px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul li {
+        margin-bottom: 10px;
+    }
+}
